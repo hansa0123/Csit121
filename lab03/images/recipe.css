@@ -1,5 +1,4 @@
 body {
-  background-image: url("UddonNoodles.jpg");
   background-color: #f4b5ff; 
 }
 h1 {
@@ -16,6 +15,7 @@ h3 {
 }
 p1 {
   Margin: 70Px;
+  background-image: url("UddonNoodles.jpg");
 }
 
 
