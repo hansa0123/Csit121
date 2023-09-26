@@ -1,6 +1,5 @@
 body {
   background-color: #f4b5ff; 
-  background-image: url("UddonNoodles.jpg");
 }
 h1 {
   color: #3e2e41;
@@ -17,7 +16,7 @@ h3 {
 p1 {
   Margin: 70Px;
 }
-img {
+img2 {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
