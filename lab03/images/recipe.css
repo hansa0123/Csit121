@@ -1,5 +1,9 @@
 body {
   background-color: #f4b5ff; 
+  background-image: url("UddonNoodles.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
 }
 h1 {
   color: #3e2e41;
@@ -15,7 +19,6 @@ h3 {
 }
 p1 {
   Margin: 70Px;
-  background-image: url("UddonNoodles.jpg");
 }
 
 
