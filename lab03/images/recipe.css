@@ -18,5 +18,9 @@ p1 {
   Margin: 70Px;
 }
 
+img {
+     content: url("UddonNoodles.jpg");
+     width: 90px;
+}
 
 
