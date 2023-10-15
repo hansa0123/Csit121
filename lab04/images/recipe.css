@@ -1,25 +1,31 @@
 .container {
-  width : 80% ;
-  margin : 0 auto ; 
+  width: 80%;
+  margin: auto; 
 }
+
 body {
   background-color: #f4b5ff; 
 }
+
 h1 {
   color: #3e2e41;
   Text-transform: Uppercase;
 }
+
 h2 {
   font-family: "courier new";
   color: #7a5b80
 }
+
 h3 {
   font-family: "Blackadder ITC";
   color: #803b7b
 }
+
 p1 {
   Margin: 70Px;
 }
+
 img2 {
     border-radius: 50%;
 }
