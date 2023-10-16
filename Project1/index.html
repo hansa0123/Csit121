@@ -36,15 +36,15 @@
             display: none;
         }
 
-        .skydiving {
+        .baking {
             background-color: #ffdb58;
         }
 
-        .painting {
+        .makeup {
             background-color: #6eb19d;
         }
 
-        .sushi {
+        .perfume {
             background-color: #ff7f50;
         }
 
@@ -57,7 +57,7 @@
         }
 
         img {
-            max-width: 100%;
+            max-width: 50%;
             border-radius: 5px;
         }
     </style>
@@ -68,23 +68,23 @@
     </header>
    
     <div class="container">
-        <p id="intro-text">Click anywhere on the screen to see my favorite things</p>
+        <p id="intro-text">Hi, This is Hansa! and this is my "Three Things" site! I'm practicing all that I have learned in CSIT 121. Click anywhere on the screen to see my favorite things</p>
         <div class="thing baking">
             <h2>First Favorite Thing: Baking</h2>
-            <img src="https://thechive.com/wp-content/uploads/2015/03/either-you-win-at-skydiving-or-you-look-hilarious-trying-20-photos-22.jpg?attachment_cache_bust=954047&quality=85&strip=info&w=400" alt="Baking">
-            <p>Soaring through the sky, the adrenaline rush is unmatched! Freefalling from the plane is a thrilling experience.</p>
+            <img src="https://img.taste.com.au/nZciz_9j/taste/2016/11/chunky-chocolate-coconut-and-banana-muffins-101038-1.jpeg" alt="Baking">
+            <p>Baking is one of my tope hobby. During my free time I like to bake and use this time to learn to bake new things. I like to bake various cookies.</p>
         </div>
        
         <div class="thing makeup">
             <h2>Second Favorite Thing: Makeup</h2>
-            <img src="https://gillianfrazier.com/wp-content/uploads/2020/07/monhegan-village-2-400x299.jpg" alt="Painting">
-            <p>Creating beautiful works of art with a paintbrush is my passion. The colors and creativity bring me joy.</p>
+            <img src="https://guardian.ng/wp-content/uploads/2022/06/Makeup.jpg" alt="Makeup">
+            <p>Makeup is something that every girl likes. I use my free time to search and lookup new makeup products and try different products.</p>
         </div>
        
         <div class="thing Perfume">
             <h2>Third Favorite Thing: Perfume</h2>
-            <img src="https://sashimi15.ru/telmana/wp-content/uploads/sites/2/2023/07/whatsapp-image-2023-07-28-at-19.43.50-400x315.jpeg" alt="Sushi">
-            <p>Sushi is a work of art and a delightful treat. The combination of flavors and textures is incredible.</p>
+            <img src="https://media.glamourmagazine.co.uk/photos/639362470105080870536432/16:9/w_1920,h_1080,c_limit/BEST%20PERFUME%20FOR%20WOMEN%2091222_SQ.jpg" alt="Perfume">
+            <p>I love the perfumes and perfumes are my favorite thing</p>
         </div>
     </div>
    
@@ -108,6 +108,7 @@
         for (const thing of things) {
             thing.style.display = 'none';
         }
+
 
         document.addEventListener('click', showNextThing);
     </script>
