@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Three Favorite Things</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        .thing {
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            display: none;
+        }
+
+        .skydiving {
+            background-color: #ffdb58;
+        }
+
+        .painting {
+            background-color: #6eb19d;
+        }
+
+        .sushi {
+            background-color: #ff7f50;
+        }
+
+        .thing h2 {
+            font-size: 24px;
+        }
+
+        .thing p {
+            font-size: 16px;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Three Favorite Things</h1>
+    </header>
+   
+    <div class="container">
+        <p id="intro-text">Click anywhere on the screen to see my favorite things</p>
+        <div class="thing baking">
+            <h2>First Favorite Thing: Baking</h2>
+            <img src="https://thechive.com/wp-content/uploads/2015/03/either-you-win-at-skydiving-or-you-look-hilarious-trying-20-photos-22.jpg?attachment_cache_bust=954047&quality=85&strip=info&w=400" alt="Baking">
+            <p>Soaring through the sky, the adrenaline rush is unmatched! Freefalling from the plane is a thrilling experience.</p>
+        </div>
+       
+        <div class="thing makeup">
+            <h2>Second Favorite Thing: Makeup</h2>
+            <img src="https://gillianfrazier.com/wp-content/uploads/2020/07/monhegan-village-2-400x299.jpg" alt="Painting">
+            <p>Creating beautiful works of art with a paintbrush is my passion. The colors and creativity bring me joy.</p>
+        </div>
+       
+        <div class="thing Perfume">
+            <h2>Third Favorite Thing: Perfume</h2>
+            <img src="https://sashimi15.ru/telmana/wp-content/uploads/sites/2/2023/07/whatsapp-image-2023-07-28-at-19.43.50-400x315.jpeg" alt="Sushi">
+            <p>Sushi is a work of art and a delightful treat. The combination of flavors and textures is incredible.</p>
+        </div>
+    </div>
+   
+    <script>
+        const things = document.querySelectorAll('.thing');
+        let currentThing = 0;
+        const introText = document.getElementById('intro-text');
+
+        things[currentThing].style.display = 'block';
+
+        function showNextThing() {
+            if (currentThing === 0) {
+                introText.style.display = 'none';
+            }
+
+            things[currentThing].style.display = 'none';
+            currentThing = (currentThing + 1) % things.length;
+            things[currentThing].style.display = 'block';
+        }
+
+        for (const thing of things) {
+            thing.style.display = 'none';
+        }
+
+        document.addEventListener('click', showNextThing);
+    </script>
+</body>
+</html>
