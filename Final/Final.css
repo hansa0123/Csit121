@@ -1,0 +1,138 @@
+body { 
+	background-color: White;
+	background-image: url(background.jpeg);
+	color: #080E0E;
+	font-family: Tahoma, Arial, sans-serif;   
+}
+
+#wrapper { 
+	background-color: white;
+	margin: auto;
+	width: 75%;
+	min-width: 700px;
+	max-width: 1024px;
+} 
+img {
+	padding: 0;
+	margin: 10px;
+	border: 1px solid #080E0E;
+	width: 90%;
+}
+ 
+header { background-color: #b898c1; 
+		 text-align: center; 
+		 padding: 5px;
+		 font-family: fantasy; ;
+}
+h1 { 
+	font-size: 4em; 
+	letter-spacing: .2em;
+	color: #fff; 
+	font-weight: normal;
+}
+h2 { 
+	color: #080E0E; 
+}
+nav { 
+	font-weight: bold; 
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #fff;
+	border-bottom: 1px solid #056563;
+}
+a {
+	color: #056563;
+}
+a:hover {
+	color: #10CAD0;
+}
+main { 
+       padding: 2em;
+}
+.center {
+	text-align: center;
+}
+footer { 
+	background-color: #b898c1;
+  	font-size: small;
+	text-align: center;
+	padding: 1em;
+	border-top: 2px solid #fff;
+	color: #fff;
+}
+ 
+table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        form {
+            display: grid;
+            gap: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+            padding: 12px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+@media only screen and (max-width: 768px) {
+    body { background-color: green;  }}
+
+@media only screen and (min-width:600px) {
+  body { background-color: yellow;}}
