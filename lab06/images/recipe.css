@@ -11,7 +11,7 @@
 
 
 wrapper { 
-	background-color: #E8F5F5;
+	background-color: #E0A8D3;
 	margin: auto;
 	width: 75%;
 	min-width: 700px;
@@ -50,8 +50,8 @@ img2 {
 }
 
 @media only screen and (max-width: 768px) {
-    body { background-color: green;  }}
+    body { background-color: #B8ADE4;  }}
 
 @media only screen and (min-width:600px) {
-  body { background-color: yellow;}}
+  body { background-color: #DEBBB9;}}
 
