@@ -52,6 +52,6 @@ img2 {
 @media only screen and (max-width: 768px) {
     body { background-color: green;  }}
 
-@media only screen and (min-width:767px) {
+@media only screen and (min-width:600px) {
   body { background-color: yellow;}}
 
