@@ -1,1 +1,48 @@
 
+
+1 of 2,094
+(no subject)
+Inbox
+
+Hansa. B <hansaa443@gmail.com>
+11:26 PM (0 minutes ago)
+to me
+
+
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 20px;
+    background-color: #D2B48C;
+    color: #4E342E;
+
+}
+
+h1 {
+    color: #8B4513;
+}
+
+.xml-table, .javascript-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid  #8B4513;
+    text-align: left;
+    color: ##754E4A;
+}
+
+th {
+    background-color: #754E4A;
+    color: #fff;
+}
+
+.xml-table tr:nth-child(even), .javascript-table tr:nth-child(even) {
+    background-color: #D2B48C;
+}
+
+.xml-table tr:nth-child(odd), .javascript-table tr:nth-child(odd) {
+    background-color: #BC8F8F;
+}
