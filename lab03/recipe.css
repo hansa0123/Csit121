@@ -3,6 +3,11 @@ body {
     background-color:#FFCFB8;
 }
 h1 {
+    background-image: url(pic1.jpg);
+    border: 3px ridge #330000; 
+    box-shadow: #9C5F44;
+    border-radius: 15px;
+    padding-left: 30x; padding-top: 30px;
     color:#BE7353;
 }
 h2 {
@@ -19,5 +24,4 @@ h3{
 }
 ul li {
     color:#573C3A;
-;
 }
