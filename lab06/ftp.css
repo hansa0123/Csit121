@@ -1,0 +1,11 @@
+body {
+   font-family: Times New Roman, serif;
+   font-size: 20pt;
+   background-color: #ffcfb8;
+}
+
+.img1 {
+    width: 100px; 
+    height: 80px; 
+    position: absolute;
+}
