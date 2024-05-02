@@ -1,0 +1,32 @@
+.content-table {
+            border-collapse: collapse;
+            margin: 30px 0;
+            font-size: 0.9em;
+            min-width: 400px;
+        }
+        
+.content-table thead tr {
+            background-color: #AFC5C7;
+            color: #303636;
+            text-align: left;
+}
+        
+.content-table th,
+.content-table td {
+padding: 12px;
+ }
+        
+.content-table tbody tr {
+border-bottom: 1px solid #899A9C; /* Added "solid" */
+ }
+        
+.content-table tbody tr:last-of-type {
+ background-color: #AFC5C7;
+ }
+h1{font-family: Courier New, monospace;
+   color: #464E4F;
+}
+h2 {
+  font-family: "Times New Roman";
+  color: #464E4F;
+}
